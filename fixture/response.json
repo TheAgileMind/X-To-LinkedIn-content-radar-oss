@@ -1,0 +1,125 @@
+{
+  "signals": [
+    {
+      "id": "s1", "post_url": "https://x.com/example_a/status/1000000000000000001", "author_handle": "example_a",
+      "published_at": "2026-09-28T10:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "AI agents can report completion before anyone verifies the actual outcome.",
+      "counterposition": "Fast exploratory loops can reasonably use provisional completion labels.",
+      "engagement": {"likes": 12, "reposts": 2, "replies": 3, "views": null, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "medium", "candidate_id": "c1", "author_kind": "human", "story_key": "verify-completion", "relevance": "direct", "problem_evidence": "documented_failure", "evidence_excerpt": "reported completion before verification", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s2", "post_url": "https://x.com/example_b/status/1000000000000000002", "author_handle": "example_b",
+      "published_at": "2026-10-01T13:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "Verification is becoming part of the product rather than a final QA step.",
+      "counterposition": "Not every low-risk workflow warrants heavy evidence collection.",
+      "engagement": {"likes": 15, "reposts": 4, "replies": 5, "views": null, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "medium", "candidate_id": "c1", "author_kind": "human", "story_key": "verify-product", "relevance": "direct", "problem_evidence": "unmet_need", "evidence_excerpt": "verification became part of the product", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s3", "post_url": "https://x.com/example_c/status/1000000000000000003", "author_handle": "example_c",
+      "published_at": "2026-09-29T11:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "Teams can mistake tool access for adoption even when operating behavior has not changed.",
+      "counterposition": "Access remains a necessary and measurable first step in a staged rollout.",
+      "engagement": {"likes": 22, "reposts": 3, "replies": 2, "views": 1100, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "medium", "candidate_id": "c2", "author_kind": "organization", "story_key": "adoption-workflow", "relevance": "direct", "problem_evidence": "unmet_need", "evidence_excerpt": "tool access did not change operating behavior", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s4", "post_url": "https://x.com/example_d/status/1000000000000000004", "author_handle": "example_d",
+      "published_at": "2026-09-30T12:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "Non-traditional builders need tight feedback loops when AI expands what they can attempt.",
+      "counterposition": "Feedback loops do not replace engineering fundamentals for reliable systems.",
+      "engagement": {"likes": 8, "reposts": 1, "replies": 4, "views": null, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "low", "candidate_id": "c3", "author_kind": "human", "story_key": "builder-feedback", "relevance": "direct", "problem_evidence": "disagreement", "evidence_excerpt": "feedback loops matter for reliable systems", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s5", "post_url": "https://x.com/example_e/status/1000000000000000005", "author_handle": "example_e",
+      "published_at": "2026-10-02T14:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "A popular post should not be confused with a durable market signal.",
+      "counterposition": "A one-off post can still expose a useful question worth testing elsewhere.",
+      "engagement": {"likes": 101, "reposts": 14, "replies": 9, "views": 9200, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "medium", "candidate_id": "c4", "author_kind": "human", "story_key": "lag-test", "relevance": "direct", "problem_evidence": "unmet_need", "evidence_excerpt": "timing should be measured rather than assumed", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s6", "post_url": "https://x.com/example_f/status/1000000000000000006", "author_handle": "example_f",
+      "published_at": "2026-09-27T15:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "The timing gap between X conversations and LinkedIn response is measurable rather than assumed.",
+      "counterposition": "Different audiences and formats may make cross-platform timing comparisons invalid.",
+      "engagement": {"likes": 19, "reposts": 2, "replies": 7, "views": null, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "low", "candidate_id": "c4", "author_kind": "human", "story_key": "lag-comparison", "relevance": "direct", "problem_evidence": "unmet_need", "evidence_excerpt": "audiences and formats may differ", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    },
+    {
+      "id": "s7", "post_url": "https://x.com/example_g/status/1000000000000000007", "author_handle": "example_g",
+      "published_at": "2026-09-20T15:00:00Z", "retrieved_at": "2026-10-03T16:00:00Z",
+      "claim_paraphrase": "This signal is intentionally outside the configured freshness window.",
+      "counterposition": "Historical context can still matter when labeled accurately.",
+      "engagement": {"likes": 40, "reposts": 5, "replies": 4, "views": null, "observed_at": "2026-10-03T16:00:00Z", "source": "synthetic_fixture"},
+      "source_confidence": "medium", "candidate_id": "c2", "author_kind": "human", "story_key": "historical-outlier", "relevance": "adjacent", "problem_evidence": "none", "evidence_excerpt": "outside configured freshness window", "evidence_provenance": "synthetic_fixture", "verification_status": "synthetic_fixture"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c1", "title": "Done is not verified", "source_signal_ids": ["s1", "s2"],
+      "external_argument": "Completion labels are weak evidence unless the workflow preserves a checkable result.",
+      "counterargument": "Exploration can move faster with provisional labels when consequences are low and reversible.",
+      "buyer": "AI product operators", "buyer_question": "What result did the system actually prove?",
+      "owner_position": "Verification belongs in the operating system, not in a celebratory final status.",
+      "proof_needed": "One redacted completion report, the failed check, and the correction the owner actually made.",
+      "existing_inventory_matches": ["Prior shortlist: The agent marked it done. What did we verify?"],
+      "differentiation": "Use a real retained evidence trail rather than another abstract human-in-the-loop claim.",
+      "linkedin_saturation": {"state": "unknown", "evidence": []},
+      "scores": {"buyer_relevance": 5, "evidence_strength": 5, "freshness": 4, "differentiation": 5, "credible_position": 5},
+      "lag_hypothesis": {"state": "untested", "evidence": [], "uncertainty": "high"},
+      "linkedin_format": "document", "format_why": "A compact evidence sequence can show claim, check, failure, and correction.",
+      "hooks": ["The agent said done. The evidence said otherwise.", "Completion is a claim. Verification is the product behavior."],
+      "next_gate": "story_interview", "disqualifications": ["No confidential implementation detail", "No story without a current redacted artifact"], "confidence": "high"
+    },
+    {
+      "id": "c2", "title": "Access is not adoption", "source_signal_ids": ["s3"],
+      "external_argument": "Tool availability is not evidence that a team changed how it decides or works.",
+      "counterargument": "Access is still a necessary first-stage rollout metric.",
+      "buyer": "Enterprise AI adoption leads", "buyer_question": "What changed in the operating workflow after access was granted?",
+      "owner_position": "Measure the changed decision or workflow, while conceding that access is only the first rung.",
+      "proof_needed": "One publicly describable workflow change and outcome measure with no employer or client detail.",
+      "existing_inventory_matches": ["Prior shortlist: Access versus actual adoption"],
+      "differentiation": "Ground the distinction in an operating decision rather than another maturity framework.",
+      "linkedin_saturation": {"state": "unknown", "evidence": []},
+      "scores": {"buyer_relevance": 5, "evidence_strength": 3, "freshness": 4, "differentiation": 4, "credible_position": 4},
+      "lag_hypothesis": {"state": "untested", "evidence": [], "uncertainty": "high"},
+      "linkedin_format": "text", "format_why": "A concise operator story can invite comparable workflow examples.",
+      "hooks": ["Your rollout metric may be measuring access, not adoption.", "The hard part starts after everyone gets the login."],
+      "next_gate": "story_interview", "disqualifications": ["One-off signal", "No broad enterprise claim from one example"], "confidence": "medium"
+    },
+    {
+      "id": "c3", "title": "The non-traditional builder feedback loop", "source_signal_ids": ["s4"],
+      "external_argument": "AI expands who can attempt product work, raising the value of disciplined feedback loops.",
+      "counterargument": "Expanded access does not erase engineering fundamentals or reliability obligations.",
+      "buyer": "Product managers building with AI", "buyer_question": "Which judgment step cannot be delegated in this build?",
+      "owner_position": "AI expands capability; standards, feedback, and judgment determine whether the result becomes useful.",
+      "proof_needed": "One small build-test-adjust sequence with a before and after artifact.",
+      "existing_inventory_matches": ["Prior shortlist: Build-test-adjust learning"],
+      "differentiation": "Show the quality loop and its tradeoff instead of leading with credentials.",
+      "linkedin_saturation": {"state": "unknown", "evidence": []},
+      "scores": {"buyer_relevance": 4, "evidence_strength": 3, "freshness": 5, "differentiation": 5, "credible_position": 5},
+      "lag_hypothesis": {"state": "untested", "evidence": [], "uncertainty": "high"},
+      "linkedin_format": "interview-first", "format_why": "The argument needs the owner's actual moment and proof before a format is locked.",
+      "hooks": ["No CS degree does not mean no standards.", "AI expanded what I could build. The feedback loop decided whether it was real."],
+      "next_gate": "story_interview", "disqualifications": ["One-off signal", "Do not imply universal credential erosion"], "confidence": "medium"
+    },
+    {
+      "id": "c4", "title": "Test the lag instead of asserting it", "source_signal_ids": ["s5", "s6"],
+      "external_argument": "X can surface an argument early, but transfer to LinkedIn must be measured rather than assumed.",
+      "counterargument": "Audience and format differences may make the platforms incomparable.",
+      "buyer": "B2B content operators", "buyer_question": "Does an emerging X argument produce qualified LinkedIn conversations?",
+      "owner_position": "Treat timing as an experiment with matched outcomes, not as algorithm folklore.",
+      "proof_needed": "A preregistered matched publishing test and qualified-response measures.",
+      "existing_inventory_matches": [], "differentiation": "Publish the test design and uncertainty rather than a viral-timing claim.",
+      "linkedin_saturation": {"state": "unknown", "evidence": []},
+      "scores": {"buyer_relevance": 4, "evidence_strength": 3, "freshness": 5, "differentiation": 5, "credible_position": 4},
+      "lag_hypothesis": {"state": "untested", "evidence": [], "uncertainty": "high"},
+      "linkedin_format": "text", "format_why": "A compact experiment statement can invite other operators' measurement approaches.",
+      "hooks": ["The lag might be an edge. That is not the same as proving it.", "A popular X post is not a LinkedIn brief."],
+      "next_gate": "hold", "disqualifications": ["No LinkedIn baseline", "No matched outcome data"], "confidence": "low"
+    }
+  ]
+}
