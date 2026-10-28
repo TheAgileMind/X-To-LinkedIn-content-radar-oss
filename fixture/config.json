@@ -1,0 +1,55 @@
+{
+  "model": "grok-4.7",
+  "date_start": "2026-09-27",
+  "date_end": "2026-10-03",
+  "max_turns": 1,
+  "parallel_tool_calls": false,
+  "reasoning_effort": "low",
+  "max_output_tokens": 4000,
+  "timeout_seconds": 300,
+  "application_retries": 0,
+  "live_tools": [
+    "x_search"
+  ],
+  "unknown_item_cost_gate": true,
+  "expected_reservation_usd": 1.0,
+  "pricing_snapshot": {
+    "as_of": "2026-10-03",
+    "grok_4_7_input_per_million_usd": 2.0,
+    "grok_4_7_output_per_million_usd": 6.0,
+    "x_search_per_1000_posts_usd": 5.0,
+    "x_search_per_1000_profiles_usd": 10.0,
+    "hard_fetched_item_cap_available": false,
+    "sources": [
+      "https://docs.x.ai/developers/models",
+      "https://docs.x.ai/developers/tools/x-search",
+      "https://docs.x.ai/developers/tools/tool-usage-details"
+    ]
+  },
+  "source_packet": {
+    "owner": "Example Owner",
+    "content_job": "Find developing public X arguments worth rebuilding as owner-review LinkedIn concepts for specific B2B audiences.",
+    "public_brand_facts": [
+      "Example Owner is a product operator who builds practical AI workflows.",
+      "Public position: useful AI work needs judgment, verification, and a repeatable system."
+    ],
+    "inventory": {
+      "published": [
+        "Example published post A"
+      ],
+      "held_or_parked": [
+        "Example parked draft B"
+      ],
+      "prior_shortlist": [
+        "The agent marked it done. What did we verify?",
+        "Access versus actual adoption"
+      ]
+    },
+    "claim_limits": [
+      "Do not invent buyer demand, customer outcomes, product functionality, anecdotes, metrics, or emotions.",
+      "Do not treat X popularity as B2B demand or the X-to-LinkedIn lag as an algorithm fact.",
+      "Do not copy creator language or mechanically cross-post X content.",
+      "Hooks and positions are research hypotheses pending owner interview and copy acceptance."
+    ]
+  }
+}
